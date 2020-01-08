@@ -1,0 +1,97 @@
+/* t头部 */
+header{
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    background-color: #f5f5f5;
+}
+header .a{
+float: right;
+}
+header .a span{
+    border-right: 2px solid #444444;
+}
+header .a span:last-child{
+    border: none;
+}
+header a{
+    padding: 0 12px;
+    font-size: 14px;
+    color: #555555;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                              v
+header span:nth-child(2) a{
+color: #ff7c00;
+}
+/* 主体部分 */
+.top-logo{
+    width: 100%;
+    padding: 35px 0;
+    border-bottom: 1px solid #dddddd;
+}
+.top-logo img{
+    width: 141px;
+    height: 60px;
+    vertical-align: bottom;
+}
+.top-logo a{
+    font-size: 20px;
+    margin-left: 18px;
+}
+.check {
+    display: inline-block;
+    vertical-align:middle;
+    appearance: none;    /* 取消自身块样式*/
+    font-weight: 500;
+    color:#44be3a;
+    background-color: #ffffff;
+    /* opacity:0; */
+  }
+  .check::after{        /* 伪元素样式即边框样式 */
+    display: block;
+    content:'';        /* 未选中样式 */
+    width:0.7rem;
+    height: 0.7rem;
+    text-align: center;
+    border:1.6px solid #44be3a;
+    border-radius: 2px;
+    background-color: #ffffff;
+  }
+  .check:checked::after{
+    content:'\2714';    /* 选中时样式，这里使用content编码--对号 */
+  }  
+   /*内容左边部分  */
+   .content-left{
+       float: left;
+       width: 633px;
+       height: 455px;
+   }
+   /* 内容右边部分 */
+   .content-right{
+       float: right;
+       width: 345px;
+       height: 455px;
+   }
+   .content-right dd{
+
+   }
+
+
+
+
+
+
+/* 底部 */
+.licence-content {
+    text-align: center;
+    padding-top: 35px;
+    border-top: 2px solid #dedede;
+}
+
+.licence-content p {
+    line-height: 2.2;
+    color: #999999;
+}
+
+.licence-content img {
+    margin-top: 15px;
+}
