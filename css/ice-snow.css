@@ -1,0 +1,271 @@
+.container{
+    width: 981px;
+}
+/* 顶部 */
+.top{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.top-right{
+    float:right;
+}
+.top p{
+display: inline-block;
+/* font-size: 14px; */
+color: #000000;
+}
+.top p a{
+    color: #0084bb;
+    margin: 0 5px;
+}
+.top-right>a{
+    color: #666666;
+    /* font-size: 14px; */
+    padding: 0 12px;
+    border-left: 2px solid #e7e7e7;
+}
+.top-right>a i{
+    margin: 0 6px;
+}
+.top-right>a:hover span{
+    color: #00bcb4;
+}
+/* ad */
+.ad{
+    width: 100%;
+}
+.ad img{
+    width: 100%;
+    vertical-align: bottom;
+}
+/* 顶部导航 */
+.topnav{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background-color: #00bcd4;
+}
+.topnav a{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 22px;
+}
+/* 顶部城市 */
+.top-city{
+    width: 100%;
+    height: 74px;
+    background-color: #242424;
+}
+.top-city .img{
+    float: left;
+    margin-right: 30px;
+    width: 135px;
+    height: 74px;
+}
+.top-city img{
+    width: 135px;
+    margin-left: 20px;
+}
+.top-city a{
+    float: left;
+    font-size: 18px;
+    padding: 4px 16px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    margin-top: 3px;
+}
+.top-city a:hover{
+    color: #fee648;
+    border: 2px solid #fee648;
+}
+/* 当季爆款 */
+.season{
+    width: 100%;
+}
+.season a{
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 336px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0,0.2);
+}
+.season a img{
+    border-radius: 10px;
+    width: 100%;
+}
+.season .in-img{
+    position: absolute;
+    top: 145px;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(0, 0, 0,0.5);
+}
+.season .in-img h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.5;
+}
+.season .in-img p {
+    font-size: 14px;
+    color: #ffffff;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+    line-height: 1.5;
+}
+.season .out-img{
+    width: 100%;
+    height: 135px;
+    background-color: #ffffff;
+    padding: 12px 15px;
+}
+.season .out-img span{
+    display: block;
+    width: 66px;
+    height: 25px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 3px;
+    color: #ff3939;
+    border: 1px solid #ff3939;
+}
+.season .out-img b{
+    display: block;
+    font-size: 20px;
+    color: #ff3939;
+    margin: 12px 0;
+}
+.season .out-img button{
+    width: 270px;
+    height: 37px;
+    background-color: #ff3939;
+    font-size: 18px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+/* 国内滑雪 */
+.domestic{
+    width: 100%;
+}
+.domestic h2{
+    width: 100%;
+    height: 80px;
+    background-color: #4e4ee4;
+    line-height: 80px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.domestic-nav{
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    padding: 0 24px;
+}
+.domestic-nav a{
+    font-size: 24px;
+    padding: 18px 50px;
+    border: 2px solid #9e9e9e;
+    border-radius: 30px;
+    margin: 6px 0;
+}
+
+.domestic .container>a{
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 336px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0,0.2);
+    margin-right: 20px;
+    margin-bottom: 18px;
+}
+.domestic a img{
+    border-radius: 10px;
+    width: 100%;
+}
+.domestic .in-img{
+    position: absolute;
+    top: 145px;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(0, 0, 0,0.5);
+}
+.domestic .in-img h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.5;
+}
+.domestic .in-img p {
+    font-size: 14px;
+    color: #ffffff;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    white-space: nowrap;
+    line-height: 1.5;
+}
+.domestic .out-img{
+    width: 100%;
+    height: 135px;
+    background-color: #ffffff;
+    padding: 12px 15px;
+}
+.domestic .out-img span{
+    display: block;
+    width: 66px;
+    height: 25px;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 3px;
+    color: #ff3939;
+    border: 1px solid #ff3939;
+}
+.domestic .out-img b{
+    display: block;
+    font-size: 20px;
+    color: #ff3939;
+    margin: 12px 0;
+}
+.domestic .out-img button{
+    width: 270px;
+    height: 37px;
+    background-color: #ff3939;
+    font-size: 18px;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+/* 底部 */
+.licence-content {
+    text-align: center;
+    padding-top: 35px;
+    border-top: 2px solid #dedede;
+}
+
+.licence-content p {
+    line-height: 2.2;
+    color: #999999;
+}
+
+.licence-content img {
+    margin-top: 15px;
+}

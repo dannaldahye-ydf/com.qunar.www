@@ -37,45 +37,102 @@ color: #ff7c00;
     font-size: 20px;
     margin-left: 18px;
 }
-.check {
-    display: inline-block;
-    vertical-align:middle;
-    appearance: none;    /* 取消自身块样式*/
-    font-weight: 500;
-    color:#44be3a;
-    background-color: #ffffff;
-    /* opacity:0; */
-  }
-  .check::after{        /* 伪元素样式即边框样式 */
-    display: block;
-    content:'';        /* 未选中样式 */
-    width:0.7rem;
-    height: 0.7rem;
-    text-align: center;
-    border:1.6px solid #44be3a;
-    border-radius: 2px;
-    background-color: #ffffff;
-  }
-  .check:checked::after{
-    content:'\2714';    /* 选中时样式，这里使用content编码--对号 */
-  }  
+ 
    /*内容左边部分  */
    .content-left{
        float: left;
        width: 633px;
        height: 455px;
    }
+   .input-label{
+    display: inline-block;
+    text-align: right;
+    width: 100px;
+    color: #999999;
+    margin-right: 10px;
+}
+.reg-inpiut{
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 22px;
+    
+}
+#tel-tip{
+    font-size: 12px;
+    color: #999999;
+}
+.reg-box{
+    margin-top: 50px;
+}
+.reg-inpiut input{
+    width: 255px;
+    height: 35px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
+.reg-inpiut button{
+    width: 97px;
+    height: 25px;
+    color: #ffffff;
+    background-color: #0b60f0;
+    border: none;
+    border-radius: 2px;
+}
+.reg-inpiut:nth-last-child(1) input{
+    width: 116px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #ff8200;
+    border: none;
+    border-radius: 3px;
+}
+.reg-inpiut:nth-last-child(1) small{
+    font-size: 12px;
+    color: #999999;
+}
+.reg-inpiut:nth-last-child(1) a{
+    color: #006bc8;
+    font-size: 12px;
+}
+.recet{
+    margin-left: 100px;
+    margin-top: 10px;
+    margin-bottom: 23px;
+}
+.recet small{
+    font-size: 12px;
+    color: #999999;
+}
+.recet a{
+    color: #006bc8;
+    font-size: 12px;
+}
    /* 内容右边部分 */
    .content-right{
-       float: right;
+       float: left;
        width: 345px;
        height: 455px;
+       margin-left: 80px;
+   }
+   .content-right dl{
+margin-top: 60px;
+color: #555555;
    }
    .content-right dd{
-
+font-size: 14px;
+margin-bottom: 15px;
    }
-
-
+   .content-right dt{
+       font-size: 12px;
+       line-height: 1.8;
+   }
+   .content-right dt::before{
+content: "*";
+margin-right: 6px;
+   }
+   .content-right dt span{
+       color: #fd017c;
+   }
 
 
 
